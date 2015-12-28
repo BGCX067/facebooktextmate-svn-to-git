@@ -1,0 +1,165 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+Facebook	facebook.php	/^class Facebook {$/;"	c
+FacebookAPIErrorCodes	facebookapi_php5_restlib.php	/^class FacebookAPIErrorCodes {$/;"	c
+FacebookDesktop	facebook_desktop.php	/^class FacebookDesktop extends Facebook {$/;"	c
+FacebookRestClient	facebookapi_php5_restlib.php	/^class FacebookRestClient {$/;"	c
+FacebookRestClientException	facebookapi_php5_restlib.php	/^class FacebookRestClientException extends Exception {$/;"	c
+__construct	facebook.php	/^  public function __construct($api_key, $secret) {$/;"	f
+__construct	facebook_desktop.php	/^  public function __construct($api_key, $secret) {$/;"	f
+__construct	facebookapi_php5_restlib.php	/^  public function __construct($api_key, $secret, $session_key=null) {$/;"	f
+admin_getAppProperties	facebookapi_php5_restlib.php	/^  public function admin_getAppProperties($properties) {$/;"	f
+admin_setAppProperties	facebookapi_php5_restlib.php	/^  public function admin_setAppProperties($properties) {$/;"	f
+arr	facebookapi_php5_restlib.php	/^    $arr = array();$/;"	v
+assoc_time	facebookapi_php5_restlib.php	/^                                      $assoc_time = null) {$/;"	v
+auth_getSession	facebookapi_php5_restlib.php	/^  public function auth_getSession($auth_token) {$/;"	f
+call_method	facebookapi_php5_restlib.php	/^  public function call_method($method, $params) {$/;"	f
+ch	facebookapi_php5_restlib.php	/^      $ch = curl_init();$/;"	v
+context	facebookapi_php5_restlib.php	/^      $context =$/;"	v
+contextid	facebookapi_php5_restlib.php	/^      $contextid=stream_context_create($context);$/;"	v
+convert_simplexml_to_array	facebookapi_php5_restlib.php	/^  public static function convert_simplexml_to_array($sxml) {$/;"	f
+cookies	facebook.php	/^      $cookies = array();$/;"	v
+current_url	facebook.php	/^  public static function current_url() {$/;"	f
+data_createObject	facebookapi_php5_restlib.php	/^  public function data_createObject($obj_type, $properties = null) {$/;"	f
+data_createObjectType	facebookapi_php5_restlib.php	/^  public function data_createObjectType($name) {$/;"	f
+data_defineAssociation	facebookapi_php5_restlib.php	/^  public function data_defineAssociation($name, $assoc_type, $assoc_info1,$/;"	f
+data_defineObjectProperty	facebookapi_php5_restlib.php	/^  public function data_defineObjectProperty($obj_type, $prop_name, $prop_type) {$/;"	f
+data_deleteObject	facebookapi_php5_restlib.php	/^  public function data_deleteObject($obj_id) {$/;"	f
+data_deleteObjects	facebookapi_php5_restlib.php	/^  public function data_deleteObjects($obj_ids) {$/;"	f
+data_dropObjectType	facebookapi_php5_restlib.php	/^  public function data_dropObjectType($obj_type) {$/;"	f
+data_getAssociatedObjectCount	facebookapi_php5_restlib.php	/^  public function data_getAssociatedObjectCount($name, $obj_id) {$/;"	f
+data_getAssociatedObjectCounts	facebookapi_php5_restlib.php	/^  public function data_getAssociatedObjectCounts($name, $obj_ids) {$/;"	f
+data_getAssociatedObjects	facebookapi_php5_restlib.php	/^  public function data_getAssociatedObjects($name, $obj_id, $no_data = true) {$/;"	f
+data_getAssociationDefinition	facebookapi_php5_restlib.php	/^  public function data_getAssociationDefinition($name) {$/;"	f
+data_getAssociationDefinitions	facebookapi_php5_restlib.php	/^  public function data_getAssociationDefinitions() {$/;"	f
+data_getAssociations	facebookapi_php5_restlib.php	/^  public function data_getAssociations($obj_id1, $obj_id2, $no_data = true) {$/;"	f
+data_getHashValue	facebookapi_php5_restlib.php	/^  public function data_getHashValue($obj_type, $key, $prop_name = null) {$/;"	f
+data_getObject	facebookapi_php5_restlib.php	/^  public function data_getObject($obj_id, $prop_names = null) {$/;"	f
+data_getObjectProperty	facebookapi_php5_restlib.php	/^  public function data_getObjectProperty($obj_id, $prop_name) {$/;"	f
+data_getObjectType	facebookapi_php5_restlib.php	/^  public function data_getObjectType($obj_type) {$/;"	f
+data_getObjectTypes	facebookapi_php5_restlib.php	/^  public function data_getObjectTypes() {$/;"	f
+data_getObjects	facebookapi_php5_restlib.php	/^  public function data_getObjects($obj_ids, $prop_names = null) {$/;"	f
+data_getUserPreference	facebookapi_php5_restlib.php	/^  public function data_getUserPreference($pref_id) {$/;"	f
+data_getUserPreferences	facebookapi_php5_restlib.php	/^  public function data_getUserPreferences() {$/;"	f
+data_incHashValue	facebookapi_php5_restlib.php	/^  public function data_incHashValue($obj_type, $key, $prop_name, $increment = 1) {$/;"	f
+data_removeAssociatedObjects	facebookapi_php5_restlib.php	/^  public function data_removeAssociatedObjects($name, $obj_id) {$/;"	f
+data_removeAssociation	facebookapi_php5_restlib.php	/^  public function data_removeAssociation($name, $obj_id1, $obj_id2) {$/;"	f
+data_removeAssociations	facebookapi_php5_restlib.php	/^  public function data_removeAssociations($assocs, $name = null) {$/;"	f
+data_removeHashKey	facebookapi_php5_restlib.php	/^  public function data_removeHashKey($obj_type, $key) {$/;"	f
+data_removeHashKeys	facebookapi_php5_restlib.php	/^  public function data_removeHashKeys($obj_type, $keys) {$/;"	f
+data_renameAssociation	facebookapi_php5_restlib.php	/^  public function data_renameAssociation($name, $new_name, $new_alias1 = null,$/;"	f
+data_renameObjectProperty	facebookapi_php5_restlib.php	/^  public function data_renameObjectProperty($obj_type, $prop_name,$/;"	f
+data_renameObjectType	facebookapi_php5_restlib.php	/^  public function data_renameObjectType($obj_type, $new_name) {$/;"	f
+data_setAssociation	facebookapi_php5_restlib.php	/^  public function data_setAssociation($name, $obj_id1, $obj_id2, $data = null,$/;"	f
+data_setAssociations	facebookapi_php5_restlib.php	/^  public function data_setAssociations($assocs, $name = null) {$/;"	f
+data_setHashValue	facebookapi_php5_restlib.php	/^  public function data_setHashValue($obj_type, $key, $value, $prop_name = null) {$/;"	f
+data_setObjectProperty	facebookapi_php5_restlib.php	/^  public function data_setObjectProperty($obj_id, $prop_name,$/;"	f
+data_setUserPreference	facebookapi_php5_restlib.php	/^  public function data_setUserPreference($pref_id, $value) {$/;"	f
+data_setUserPreferences	facebookapi_php5_restlib.php	/^  public function data_setUserPreferences($values, $replace = false) {$/;"	f
+data_undefineAssociation	facebookapi_php5_restlib.php	/^  public function data_undefineAssociation($name) {$/;"	f
+data_undefineObjectProperty	facebookapi_php5_restlib.php	/^  public function data_undefineObjectProperty($obj_type, $prop_name) {$/;"	f
+data_updateObject	facebookapi_php5_restlib.php	/^  public function data_updateObject($obj_id, $properties, $replace = false) {$/;"	f
+do_get_session	facebook.php	/^  public function do_get_session($auth_token) {$/;"	f
+do_get_session	facebook_desktop.php	/^  public function do_get_session($auth_token) {$/;"	f
+events_get	facebookapi_php5_restlib.php	/^  public function events_get($uid, $eids, $start_time, $end_time, $rsvp_status) {$/;"	f
+events_getMembers	facebookapi_php5_restlib.php	/^  public function events_getMembers($eid) {$/;"	f
+expires	facebook.php	/^      $expires     = isset($this->fb_params['expires'])     ? $this->fb_params['expires'] : null;$/;"	v
+fb	test_api.php	/^$fb = new Facebook("ac2328cb357070c3683f29df699140c3",$/;"	v
+fb_params	facebook.php	/^    $fb_params = array();$/;"	v
+fbml_refreshImgSrc	facebookapi_php5_restlib.php	/^  public function fbml_refreshImgSrc($url) {$/;"	f
+fbml_refreshRefUrl	facebookapi_php5_restlib.php	/^  public function fbml_refreshRefUrl($url) {$/;"	f
+fbml_setRefHandle	facebookapi_php5_restlib.php	/^  public function fbml_setRefHandle($handle, $fbml) {$/;"	f
+feed_publishActionOfUser	facebookapi_php5_restlib.php	/^  public function feed_publishActionOfUser($title, $body,$/;"	f
+feed_publishStoryToUser	facebookapi_php5_restlib.php	/^  public function feed_publishStoryToUser($title, $body,$/;"	f
+feed_publishTemplatizedAction	facebookapi_php5_restlib.php	/^  public function feed_publishTemplatizedAction($actor_id, $title_template, $title_data,$/;"	f
+fetch	test_api.php	/^$fetch = array("blah" => array('pattern' => 'hello',$/;"	v
+fql_query	facebookapi_php5_restlib.php	/^  public function fql_query($query) {$/;"	f
+friends_areFriends	facebookapi_php5_restlib.php	/^  public function friends_areFriends($uids1, $uids2) {$/;"	f
+friends_get	facebookapi_php5_restlib.php	/^  public function friends_get() {$/;"	f
+friends_getAppUsers	facebookapi_php5_restlib.php	/^  public function friends_getAppUsers() {$/;"	f
+generate_sig	facebook.php	/^  public static function generate_sig($params_array, $secret) {$/;"	f
+get_add_url	facebook.php	/^  public function get_add_url($next=null) {$/;"	f
+get_facebook_url	facebook.php	/^  public static function get_facebook_url($subdomain='www') {$/;"	f
+get_install_url	facebook.php	/^  public function get_install_url($next=null) {$/;"	f
+get_loggedin_user	facebook.php	/^  public function get_loggedin_user() {$/;"	f
+get_login_url	facebook.php	/^  public function get_login_url($next, $canvas) {$/;"	f
+get_valid_fb_params	facebook.php	/^  public function get_valid_fb_params($params, $timeout=null, $namespace='fb_sig') {$/;"	f
+groups_get	facebookapi_php5_restlib.php	/^  public function groups_get($uid, $gids) {$/;"	f
+groups_getMembers	facebookapi_php5_restlib.php	/^  public function groups_getMembers($gid) {$/;"	f
+image_1	facebookapi_php5_restlib.php	/^                                                $image_1=null, $image_1_link=null,$/;"	v
+image_1	facebookapi_php5_restlib.php	/^                                           $image_1=null, $image_1_link=null,$/;"	v
+image_1	facebookapi_php5_restlib.php	/^                                          $image_1=null, $image_1_link=null,$/;"	v
+image_2	facebookapi_php5_restlib.php	/^                                                $image_2=null, $image_2_link=null,$/;"	v
+image_2	facebookapi_php5_restlib.php	/^                                           $image_2=null, $image_2_link=null,$/;"	v
+image_2	facebookapi_php5_restlib.php	/^                                          $image_2=null, $image_2_link=null,$/;"	v
+image_3	facebookapi_php5_restlib.php	/^                                                $image_3=null, $image_3_link=null,$/;"	v
+image_3	facebookapi_php5_restlib.php	/^                                           $image_3=null, $image_3_link=null,$/;"	v
+image_3	facebookapi_php5_restlib.php	/^                                          $image_3=null, $image_3_link=null,$/;"	v
+image_4	facebookapi_php5_restlib.php	/^                                                $image_4=null, $image_4_link=null,$/;"	v
+image_4	facebookapi_php5_restlib.php	/^                                           $image_4=null, $image_4_link=null) {$/;"	v
+image_4	facebookapi_php5_restlib.php	/^                                          $image_4=null, $image_4_link=null) {$/;"	v
+in_fb_canvas	facebook.php	/^  public function in_fb_canvas() {$/;"	f
+in_frame	facebook.php	/^  public function in_frame() {$/;"	f
+intl_uploadNativeStrings	facebookapi_php5_restlib.php	/^  public function intl_uploadNativeStrings($native_strings) {$/;"	f
+marketplace_createListing	facebookapi_php5_restlib.php	/^  function marketplace_createListing($listing_id, $show_on_profile, $attrs) {$/;"	f
+marketplace_getCategories	facebookapi_php5_restlib.php	/^  function marketplace_getCategories() {$/;"	f
+marketplace_getListings	facebookapi_php5_restlib.php	/^  function marketplace_getListings($listing_ids, $uids) {$/;"	f
+marketplace_getSubCategories	facebookapi_php5_restlib.php	/^  function marketplace_getSubCategories($category) {$/;"	f
+marketplace_removeListing	facebookapi_php5_restlib.php	/^  function marketplace_removeListing($listing_id, $status='DEFAULT') {$/;"	f
+marketplace_search	facebookapi_php5_restlib.php	/^  function marketplace_search($category, $subcategory, $query) {$/;"	f
+new_alias2	facebookapi_php5_restlib.php	/^                                         $new_alias2 = null) {$/;"	v
+no_magic_quotes	facebook.php	/^  public static function no_magic_quotes($val) {$/;"	f
+notifications_get	facebookapi_php5_restlib.php	/^  public function notifications_get() {$/;"	f
+notifications_send	facebookapi_php5_restlib.php	/^  public function notifications_send($to_ids, $notification, $email='') {$/;"	f
+pages_getInfo	facebookapi_php5_restlib.php	/^  public function pages_getInfo($page_ids, $fields, $uid, $type) {$/;"	f
+pages_isAdmin	facebookapi_php5_restlib.php	/^  public function pages_isAdmin($page_id) {$/;"	f
+pages_isAppAdded	facebookapi_php5_restlib.php	/^  public function pages_isAppAdded() {$/;"	f
+pages_isFan	facebookapi_php5_restlib.php	/^  public function pages_isFan($page_id, $uid) {$/;"	f
+photos_get	facebookapi_php5_restlib.php	/^  public function photos_get($subj_id, $aid, $pids) {$/;"	f
+photos_getAlbums	facebookapi_php5_restlib.php	/^  public function photos_getAlbums($uid, $aids) {$/;"	f
+photos_getTags	facebookapi_php5_restlib.php	/^  public function photos_getTags($pids) {$/;"	f
+post_params	facebookapi_php5_restlib.php	/^    $post_params = array();$/;"	v
+post_request	facebookapi_php5_restlib.php	/^  public function post_request($method, $params) {$/;"	f
+post_string	facebookapi_php5_restlib.php	/^    $post_string = implode('&', $post_params);$/;"	v
+prefix	facebook.php	/^    $prefix = $namespace . '_';$/;"	v
+prefix_len	facebook.php	/^    $prefix_len = strlen($prefix);$/;"	v
+profile_field_array	facebookapi_php5_restlib.php	/^$profile_field_array = array($/;"	v
+profile_getFBML	facebookapi_php5_restlib.php	/^  public function profile_getFBML($uid) {$/;"	f
+profile_setFBML	facebookapi_php5_restlib.php	/^  function profile_setFBML($markup, $uid = null, $profile='', $profile_action='', $mobile_profile='') {$/;"	f
+redirect	facebook.php	/^  public function redirect($url) {$/;"	f
+require_add	facebook.php	/^  public function require_add() {$/;"	f
+require_frame	facebook.php	/^  public function require_frame() {$/;"	f
+require_install	facebook.php	/^  public function require_install() {$/;"	f
+require_login	facebook.php	/^  public function require_login() {$/;"	f
+require_login	facebook_desktop.php	/^  public function require_login() {$/;"	f
+res	test_api.php	/^$res = $fb->api_client->admin_getAppProperties(array('preload_fql'));$/;"	v
+res	test_api.php	/^$res = $fb->api_client->admin_setAppProperties(array('preload_fql' => json_encode($fetch)));$/;"	v
+result	facebookapi_php5_restlib.php	/^        $result='';$/;"	v
+result	facebookapi_php5_restlib.php	/^      $result = curl_exec($ch);$/;"	v
+result	facebookapi_php5_restlib.php	/^    $result = $this->call_method('facebook.auth.getSession', array('auth_token'=>$auth_token));$/;"	v
+result	facebookapi_php5_restlib.php	/^    $result = self::convert_simplexml_to_array($sxml);$/;"	v
+secret	facebookapi_php5_restlib.php	/^    $secret = $this->secret;$/;"	v
+session_info	facebook_desktop.php	/^          $session_info = $this->do_get_session($_GET['auth_token']);$/;"	v
+session_info	facebook_desktop.php	/^    $session_info = parent::do_get_session($auth_token);$/;"	v
+session_key	facebook.php	/^      $session_key = isset($this->fb_params['session_key']) ? $this->fb_params['session_key'] : null;$/;"	v
+set_session_secret	facebook_desktop.php	/^  public function set_session_secret($session_secret) {$/;"	f
+set_user	facebook.php	/^  public function set_user($user, $session_key, $expires=null) {$/;"	f
+sig	facebook.php	/^      $sig = self::generate_sig($cookies, $this->secret);$/;"	v
+sock	facebookapi_php5_restlib.php	/^      $sock=fopen($this->server_addr, 'r', false, $contextid);$/;"	v
+str	facebook.php	/^    $str = '';$/;"	v
+sxml	facebookapi_php5_restlib.php	/^    $sxml = simplexml_load_string($xml);$/;"	v
+target_ids	facebookapi_php5_restlib.php	/^                                                $target_ids='') {$/;"	v
+toggleDisplay	facebookapi_php5_restlib.php	/^function toggleDisplay(id, type) {$/;"	f
+user	facebook.php	/^      $user        = isset($this->fb_params['user'])        ? $this->fb_params['user'] : null;$/;"	v
+user	facebook_desktop.php	/^        $user = $this->api_client->users_getLoggedInUser();$/;"	v
+users_getInfo	facebookapi_php5_restlib.php	/^  public function users_getInfo($uids, $fields) {$/;"	f
+users_getLoggedInUser	facebookapi_php5_restlib.php	/^  public function users_getLoggedInUser() {$/;"	f
+users_isAppAdded	facebookapi_php5_restlib.php	/^  public function users_isAppAdded() {$/;"	f
+validate_fb_params	facebook.php	/^  public function validate_fb_params() {$/;"	f
+verify_signature	facebook.php	/^  public function verify_signature($fb_params, $expected_sig) {$/;"	f
+verify_signature	facebook_desktop.php	/^  public function verify_signature($fb_params, $expected_sig) {$/;"	f
+xml	facebookapi_php5_restlib.php	/^    $xml = $this->post_request($method, $params);$/;"	v

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$fb-&gt;client-&gt;
+</string>
+	<key>name</key>
+	<string>Client</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>cli</string>
+	<key>uuid</key>
+	<string>78764E1B-FA83-4F7A-9589-6187A4E4DDEA</string>
+</dict>
+</plist>

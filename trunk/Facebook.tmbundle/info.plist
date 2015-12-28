@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>2488E0A2-51AF-4FE9-B5DA-C5DF99AF00DB</string>
+			<string>160C5FE4-3BD9-4B10-8643-5D997FC968DE</string>
+			<string>------------------------------------</string>
+			<string>038EE26E-49D9-42A7-AFA7-52F03CFA971E</string>
+			<string>685B0933-503C-493B-8F86-20AF0E91DA2A</string>
+			<string>------------------------------------</string>
+			<string>78764E1B-FA83-4F7A-9589-6187A4E4DDEA</string>
+			<string>767B90AC-DB11-491F-A2AC-5BC815514B46</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
+	<key>name</key>
+	<string>Facebook</string>
+	<key>ordering</key>
+	<array>
+		<string>99CBFBDC-A147-4E3C-BFC0-020BFE6FB7DF</string>
+		<string>038EE26E-49D9-42A7-AFA7-52F03CFA971E</string>
+		<string>685B0933-503C-493B-8F86-20AF0E91DA2A</string>
+		<string>767B90AC-DB11-491F-A2AC-5BC815514B46</string>
+		<string>78764E1B-FA83-4F7A-9589-6187A4E4DDEA</string>
+		<string>2488E0A2-51AF-4FE9-B5DA-C5DF99AF00DB</string>
+		<string>160C5FE4-3BD9-4B10-8643-5D997FC968DE</string>
+	</array>
+	<key>uuid</key>
+	<string>FB23B40B-2F54-4225-8EB7-A0A04F930D34</string>
+</dict>
+</plist>

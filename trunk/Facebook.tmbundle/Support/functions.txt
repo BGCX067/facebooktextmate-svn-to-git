@@ -1,0 +1,69 @@
+admin_getAppProperties%$properties
+admin_setAppProperties%$properties
+auth_getSession%$auth_token
+data_createObject%$obj_type, $properties = null
+data_createObjectType%$name
+data_defineObjectProperty%$obj_type, $prop_name, $prop_type
+data_deleteObject%$obj_id
+data_deleteObjects%$obj_ids
+data_dropObjectType%$obj_type
+data_getAssociatedObjectCount%$name, $obj_id
+data_getAssociatedObjectCounts%$name, $obj_ids
+data_getAssociatedObjects%$name, $obj_id, $no_data = true
+data_getAssociationDefinition%$name
+data_getAssociationDefinitions%
+data_getAssociations%$obj_id1, $obj_id2, $no_data = true
+data_getHashValue%$obj_type, $key, $prop_name = null
+data_getObject%$obj_id, $prop_names = null
+data_getObjectProperty%$obj_id, $prop_name
+data_getObjectType%$obj_type
+data_getObjectTypes%
+data_getObjects%$obj_ids, $prop_names = null
+data_getUserPreference%$pref_id
+data_getUserPreferences%
+data_incHashValue%$obj_type, $key, $prop_name, $increment = 1
+data_removeAssociatedObjects%$name, $obj_id
+data_removeAssociation%$name, $obj_id1, $obj_id2
+data_removeAssociations%$assocs, $name = null
+data_removeHashKey%$obj_type, $key
+data_removeHashKeys%$obj_type, $keys
+data_renameObjectType%$obj_type, $new_name
+data_setAssociations%$assocs, $name = null
+data_setHashValue%$obj_type, $key, $value, $prop_name = null
+data_setUserPreference%$pref_id, $value
+data_setUserPreferences%$values, $replace = false
+data_undefineAssociation%$name
+data_undefineObjectProperty%$obj_type, $prop_name
+data_updateObject%$obj_id, $properties, $replace = false
+events_get%$uid, $eids, $start_time, $end_time, $rsvp_status
+events_getMembers%$eid
+fbml_refreshImgSrc%$url
+fbml_refreshRefUrl%$url
+fbml_setRefHandle%$handle, $fbml
+fql_query%$query
+friends_areFriends%$uids1, $uids2
+friends_get%
+friends_getAppUsers%
+groups_get%$uid, $gids
+groups_getMembers%$gid
+marketplace_createListing%$listing_id, $show_on_profile, $attrs
+marketplace_getCategories%
+marketplace_getListings%$listing_ids, $uids
+marketplace_getSubCategories%$category
+marketplace_removeListing%$listing_id, $status='DEFAULT'
+marketplace_search%$category, $subcategory, $query
+notifications_get%
+notifications_send%$to_ids, $notification, $email=''
+pages_getInfo%$page_ids, $fields, $uid, $type
+pages_isAdmin%$page_id
+pages_isAppAdded%
+pages_isFan%$page_id, $uid
+photos_get%$subj_id, $aid, $pids
+photos_getAlbums%$uid, $aids
+photos_getTags%$pids
+post_request%$method, $params
+profile_getFBML%$uid
+profile_setFBML%$markup, $uid = null, $profile='', $profile_action='', 
+users_getInfo%$uids, $fields
+users_getLoggedInUser%
+users_isAppAdded%
